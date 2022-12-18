@@ -1,0 +1,137 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+
+  background-color: #ffffff;
+}
+.titlebar {
+  display: block;
+  background: #259f46;
+  margin-bottom: 0px;
+  padding: 10px 30px;
+  /* margin-top: -60px; */
+}
+
+.sidebar ul {
+  padding: 0px;
+  height: 40px;
+}
+
+.sidebar ul li {
+  padding: 0px;
+  float: left;
+  color: black;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  cursor: pointer;
+  text-align: center;
+  list-style: none;
+  font-size: 18px;
+}
+
+.sidebar ul li ul {
+  display: none;
+}
+
+.sidebar ul li:hover > ul {
+  display: block;
+}
+
+.sidebar ul li:hover {
+  background-color: rgb(213, 223, 204);
+  color: black;
+}
+
+.sidebar ul li ul li {
+  position: relative;
+}
+
+.sidebar ul li ul li ul {
+  position: absolute;
+  left: 180px;
+  top: 0px;
+}
+
+.titlebar {
+  color: #f6f8f6;
+}
+
+.sidepanel {
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidepanel ul li {
+  padding: 0px;
+  float: left;
+  color: black;
+  height: 40px;
+  line-height: 40px;
+  width: 250px;
+  cursor: pointer;
+  text-align: left;
+  list-style: none;
+  font-size: 18px;
+  padding-left: 11px;
+}
+.sidepanel ul li i {
+  padding-right: 20px;
+}
+
+.sidepanel ul li span {
+  font-family: calibri;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.sidepanel ul li ul {
+  display: none;
+}
+
+.sidepanel ul li:hover > ul {
+  display: block;
+}
+
+.sidepanel ul li:hover {
+  background-color: rgb(213, 223, 204);
+  color: black;
+}
+
+.sidepanel ul li ul li {
+  position: relative;
+}
+
+.sidepanel ul li ul li ul {
+  position: absolute;
+  left: 180px;
+  top: 0px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}

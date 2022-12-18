@@ -1,0 +1,27 @@
+.div-icon {
+  float: left;
+  margin: 0px 10px 0px 0px;
+  padding: 5px 5px 0px 5px;
+  vertical-align: middle;
+}
+.div-icon-div {
+  width: 30px;
+  height: 40px;
+  text-align: center;
+}
+.div-badge {
+  background-color: #259f46;
+  margin: -38px 0px 0px 20px;
+  position: absolute;
+  border-radius: 50%;
+  font-size: 12px;
+  color: white;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+.fac-icon {
+  font-family: "calibri";
+  font-size: 20px;
+}

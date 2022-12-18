@@ -1,0 +1,21 @@
+.bar {
+  background-color: #1c7635;
+  margin-left: 0px;
+  color: white;
+  padding-top: 10px;
+}
+
+.div-edit {
+  padding: 10px;
+  background-color: white;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.div-edit input {
+  border: none;
+}
+
+.div-edit input:focus {
+  outline: none;
+}

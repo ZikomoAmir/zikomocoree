@@ -1,0 +1,72 @@
+.main {
+  margin: 20px;
+}
+
+.div-text {
+  padding: 10px 0px;
+  background-color: white;
+  color: #333;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+.div-text input {
+  border: none;
+  width: 100%;
+}
+
+.div-text input:focus {
+  outline: none;
+  background-color: #ddd;
+}
+
+.div-text:focus-within {
+  border: 1px solid #aaa;
+  background-color: #ddd;
+}
+
+.desc-title {
+  background-color: #3b403c;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.desc-icon {
+  background-color: #259f46;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+}
+
+.desc-text {
+  margin-top: 20px;
+}
+
+.detail-map {
+  margin: 20px;
+}
+
+.detail-map-div {
+  background-color: #3b403c;
+}
+
+.detail-map-text {
+  background-color: white;
+  margin: 10px;
+  padding: 3px;
+}
+
+.detail-map-text input {
+  border: none;
+  width: 100%;
+}
+
+.detail-map-text input:focus {
+  outline: none;
+  background-color: #ddd;
+}
+
+.detail-map-text:focus-within {
+  border: 1px solid #aaa;
+  background-color: #ddd;
+}
